@@ -1,3 +1,5 @@
+[mathjax]
+
 This is another somewhat frivolous script I wrote when playing an RPG game where we did not have enough sets of dice.  It simulates dice rolls with various modes.
 
 <h3>Links</h3>
