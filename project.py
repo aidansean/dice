@@ -3,9 +3,13 @@ from project_module import project_object, image_object, link_object, challenge_
 p = project_object('dice', 'Dice simulator')
 p.domain = 'http://www.aidansean.com/'
 p.path = 'dice'
-p.preview_image_ = image_object('http://placekitten.com.s3.amazonaws.com/homepage-samples/408/287.jpg', 408, 287)
+p.preview_image    = image_object('%s/images/project.jpg'   %p.path, 150, 250)
+p.preview_image_bw = image_object('%s/images/project_bw.jpg'%p.path, 150, 250)
+p.folder_name = 'aidansean'
 p.github_repo_name = 'dice'
 p.mathjax = False
+p.tags = 'Tool,Frivolous'
+p.technologies = 'CSS,HTML,JavaScript'
 p.links.append(link_object(p.domain, 'dice/', 'Live page'))
 p.introduction = 'This is another somewhat frivolous script I wrote when playing an RPG game where we did not have enough sets of dice.  It simulates dice rolls with various modes.'
 p.overview = '''There are three modes:
